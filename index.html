@@ -5,46 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>すごいアプリ</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="MyAwesomeApp/favicon.ico" />
   </head>
   <body>
     <header>
-      <h1>すごいアプリ</h1>
-      <p>ウルトラすごい最高なアプリです</p>
-      <a href="" class="btn">ダウンロード</a>
-      <img src="MyAwesomeApp/img/top.png" alt="すごいアプリ" />
+      <div class="container">
+        <div class="info">
+          <h1>すごいアプリ</h1>
+          <p>ウルトラすごい最高なアプリです</p>
+          <a href="" class="btn">ダウンロード</a>
+        </div>
+        <div class="pic">
+          <img src="MyAwesomeApp/img/top.png" alt="すごいアプリ" />
+        </div>
+      </div>
     </header>
     <section class="features">
       <h1>すごい特徴</h1>
       <div class="container">
         <section>
-          <img src="MyAwesomeApp/img/feature1.png" alt="" />
-          <h1>すごい</h1>
-          <p>
-            とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。
-            とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。
-          </p>
+          <div class="pic">
+            <img src="MyAwesomeApp/img/feature1.png" alt="" />
+          </div>
+          <div class="info">
+            <h1>すごい</h1>
+            <p>
+              とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。
+              とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。
+            </p>
+          </div>
         </section>
         <section>
-          <img src="MyAwesomeApp/img/feature2.png" alt="" />
-          <h1>すごい</h1>
-          <p>
-            とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。
-            とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。
-          </p>
+          <div class="pic">
+            <img src="MyAwesomeApp/img/feature2.png" alt="" />
+          </div>
+          <div class="info">
+            <h1>すごい</h1>
+            <p>
+              とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。
+              とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。
+            </p>
+          </div>
         </section>
         <section>
-          <img src="MyAwesomeApp/img/feature3.png" alt="" />
-          <h1>すごい</h1>
-          <p>
-            とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。
-            とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。
-          </p>
+          <div class="pic">
+            <img src="MyAwesomeApp/img/feature3.png" alt="" />
+          </div>
+          <div class="info">
+            <h1>すごい</h1>
+            <p>
+              とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。
+              とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。とにかくすごい。
+            </p>
+          </div>
         </section>
       </div>
     </section>
     <section class="members">
       <h1>メンバー紹介</h1>
-      <ul>
+      <ul class="container">
         <li>
           <img src="MyAwesomeApp/img/member1.png" alt="" />
           <h2>山田太郎</h2>
@@ -66,6 +85,7 @@
       <h1>いますぐダウンロードしよう</h1>
       <a href="" class="btn">ダウンロード</a>
     </section>
+    <footer>©すごいアプリ</footer>
     <script>
       function headerArea() {
         const header = document.querySelector("header > h1");
